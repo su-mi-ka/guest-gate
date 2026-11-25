@@ -1,0 +1,9 @@
+[project]
+name = "guest-gate"
+version = "0.1.0"
+description = "Manners for a chat bot visiting someone else's server (answer only when addressed, tell owner from guest, keep a per-room buffer, hold a server and keep a ledger of what was not forwarded) plus a structural brake that always stops bot-to-bot loops. Pure decisions, standard library only."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
